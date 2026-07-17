@@ -105,37 +105,69 @@ window.DARLES_PROJECTS = [
   ]
 },
   {
-    id: "neon-plus",
-    title: { ru: "Неон Плюс", en: "Neon Plus" },
-    category: "html5",
-    type: { ru: "Аркадный шутер", en: "Arcade shooter" },
-    status: "released",
-    statusLabel: { ru: "Релиз с game jam", en: "Game jam release" },
-    featured: true,
-    accent: "cyan",
-    cover: "",
-    short: {
-      ru: "Неоновый аркадный шутер с цветовой механикой, тремя режимами огня и двадцатью уровнями.",
-      en: "A neon arcade shooter with a color-matching mechanic, three firing modes and twenty levels."
+    "id": "neon-plus",
+    "title": {
+      "ru": "Неон Плюс",
+      "en": "Neon Plus"
     },
-    details: {
-      ru: "Проект создан за три дня для game jam. Основной акцент сделан на быстром игровом цикле, читаемом визуальном языке и управляемом росте сложности.",
-      en: "The project was created in three days for a game jam. It focuses on a fast gameplay loop, clear visual language and controlled difficulty growth."
+    "category": "html5",
+    "type": {
+      "ru": "Неоновый аркадный шутер",
+      "en": "Neon arcade shooter"
     },
-    solutions: {
-      ru: [
-        "Feature cutting для выпуска завершённой игры за три дня",
-        "Цветовое соответствие как основа боя",
-        "Три режима стрельбы внутри простого управления"
+    "status": "released",
+    "statusLabel": {
+      "ru": "Опубликовано",
+      "en": "Released"
+    },
+    "featured": true,
+    "accent": "cyan",
+    "cover": "assets/projects/neon-plus.webp",
+    "short": {
+      "ru": "Неоновый HTML5-шутер в духе аркад 80-х: игрок управляет звездолётом с автоматической стрельбой, переключает цветовые режимы и проходит 20 уровней с боссами.",
+      "en": "A neon HTML5 shooter inspired by 1980s arcades: players pilot an auto-firing spaceship, switch between color modes and clear 20 levels with bosses."
+    },
+    "details": {
+      "ru": "Игра создана за три дня для GP Profit Jam #2 feat Pikabu. Игрок уклоняется от врагов, снарядов и препятствий, открывает корабли с разным оружием, собирает временные усиления и восстановление, а результаты сравнивает в таблице лидеров.",
+      "en": "The game was created in three days for GP Profit Jam #2 feat Pikabu. Players dodge enemies, projectiles and obstacles, unlock ships with different weapons, collect temporary boosts and recovery items, and compare results on the leaderboard."
+    },
+    "solutions": {
+      "ru": [
+        "Простое перемещение звездолёта при автоматической стрельбе",
+        "Три цветовых режима для опыта, рекордных очков и бонусов",
+        "Прогрессия через 20 уровней, волны врагов, боссов и новые корабли",
+        "Временные усиления, восстановление, увеличение урона и таблица лидеров"
       ],
-      en: [
-        "Feature cutting to ship a complete game in three days",
-        "Color matching used as the foundation of combat",
-        "Three firing modes within a simple control scheme"
+      "en": [
+        "Simple spaceship movement paired with automatic firing",
+        "Three color modes for experience, high-score points and bonuses",
+        "Progression across 20 levels, enemy waves, bosses and new ships",
+        "Temporary boosts, recovery, increased damage and a leaderboard"
       ]
     },
-    stack: ["Construct 3", "HTML5", "Rapid Prototyping", "Arcade Balance"],
-    links: []
+    "stack": [
+      "Construct 3",
+      "HTML5",
+      "Rapid Prototyping",
+      "Arcade Balance",
+      "Leaderboards"
+    ],
+    "links": [
+      {
+        "label": {
+          "ru": "Играть на Пикабу Игры",
+          "en": "Play on Pikabu Games"
+        },
+        "url": "https://games.pikabu.ru/game/neon-plyus"
+      },
+      {
+        "label": {
+          "ru": "Страница игры на itch.io",
+          "en": "Game page on itch.io"
+        },
+        "url": "https://darlesgames.itch.io/neonplus"
+      }
+    ]
   },
   {
     id: "winter-puzzle",
