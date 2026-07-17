@@ -1,4 +1,4 @@
 interface:
-  display_name: "Darles Portfolio Card"
-  short_description: "Add or update Darles portfolio cards"
-  default_prompt: "Use $create-darles-portfolio-card to add or update a Darles Games portfolio card, generate its cover, validate it, commit it, and push it."
+  display_name: "Darles Portfolio Cards"
+  short_description: "Add, improve, or batch-update portfolio cards"
+  default_prompt: "Use $create-darles-portfolio-card to add or update one or more Darles Games portfolio cards with professional technology stacks, covers, validation, commit, and push."
